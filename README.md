@@ -1,7 +1,7 @@
 # laravel-search
 one search drivers plugin for laravel
 
-This package provides a unified API across a variety of different full text search services, it just fork from [mmanos/laravel-search](https://github.com/mmanos/laravel-search), and update the [Elasticsearch](http://www.elasticsearch.org/) to `5.0`.
+This package provides a unified API across a variety of different full text search services, it just fork from [mmanos/laravel-search](https://github.com/mmanos/laravel-search), and update the [Elasticsearch](http://www.elasticsearch.org/) to `^6.0`.
 It currently supports drivers for [Elasticsearch](http://www.elasticsearch.org/), [Algolia](https://www.algolia.com/).
 
 ## Installation Via Composer
