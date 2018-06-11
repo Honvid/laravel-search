@@ -17,5 +17,10 @@
     "php": "~7.0",
     "elasticsearch/elasticsearch": "^6.0",
     "algolia/algoliasearch-client-php": "^1.26"
+  },
+  "autoload": {
+    "psr-4": {
+      "Honvid\\": "src"
+    }
   }
 }
