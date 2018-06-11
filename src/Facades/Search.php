@@ -1,6 +1,6 @@
 <?php
 
-namespace LinkDoc\Facades;
+namespace Honvid\Facades;
 
 /*
 |--------------------------------------------------------------------------
