@@ -12,7 +12,9 @@ install the package by this:
 composer require honvid/laravel-search
 ```
 
-After that, run composer install to install the package.
+After that, you should add the service provider:
+
+> It supports Package Auto Discovery. If your Laravel version is above 5.5, please skip this step. 
 
 Add the service provider to `app/config/app.php`, within the `providers` array.
 
@@ -278,3 +280,7 @@ $results = Search::index('posts')->select('id', 'created_at')
 ```
 
 > **Note:** You may also pass an array of drivers as the second parameter.
+
+## License
+
+The Laravel-Search package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
