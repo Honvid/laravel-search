@@ -15,7 +15,7 @@
   "minimum-stability": "stable",
   "require": {
     "php": "~7.0",
-    "elasticsearch/elasticsearch": "~6.0",
+    "elasticsearch/elasticsearch": "~5.0",
     "algolia/algoliasearch-client-php": "~1.0"
   }
 }
